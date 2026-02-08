@@ -10,7 +10,7 @@
 
 A full-featured e-commerce web application built with **ASP.NET Web Forms** and **C#**, featuring user authentication, product catalog, shopping cart functionality, and administrative dashboard.
 
-[Features](#features) • [Tech Stack](#tech-stack) • [Getting Started](#getting-started) • [Project Structure](#project-structure)
+[Features](#features) • [Tech Stack](#tech-stack) • [Project Structure](#project-structure)
 
 </div>
 
