@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="ProjectAppWeb.User" %>
+<%@ Register Src="~/UserControls/LoginStatus.ascx" TagPrefix="uc1" TagName="LoginStatus" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <script src="https://kit.fontawesome.com/8b288ae8ef.js" crossorigin="anonymous"></script>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Header / Banner -->
+        <header class="custom-header">
+            <a href="Default.aspx">
+                <img class="logo" src="Images/uniqlologo.png" alt="Logo" />
+            </a>
+            <div class="login-status">
+                <uc1:LoginStatus runat="server" ID="LoginStatus" />
+            </div>
+        </header>
+
+        <div class="main-content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
