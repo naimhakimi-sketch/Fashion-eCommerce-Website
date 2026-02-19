@@ -94,51 +94,6 @@ The application is built using **ASP.NET Web Forms** with a **SQL Server LocalDB
 
 ---
 
-<!--
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Visual Studio 2022** or later (with ASP.NET development tools)
-- **.NET Framework 4.7.2**
-- **SQL Server LocalDB**
-- Windows 10 or later
-
-### Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/ProjectAppWeb.git
-   cd ProjectAppWeb
-   ```
-
-2. **Open the Solution**
-   - Open `ProjectAppWeb.sln` in Visual Studio 2022
-
-3. **Restore NuGet Packages**
-   - Right-click on the solution → "Restore NuGet Packages"
-
-4. **Setup Database**
-   - The LocalDB database (`DataBase.mdf`) is included in `App_Data/`
-   - Verify the connection string in `Web.config`:
-
-   ```xml
-   <add name="DataBase"
-        connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DataBase.mdf;Integrated Security=True"
-        providerName="System.Data.SqlClient" />
-   ```
-
-5. **Build Solution**
-   - Build → Build Solution (Ctrl+Shift+B)
-
-6. **Run Application**
-   - Press F5 or click "Start" button
-   - Application will open at `https://localhost:44324/`
-
----
--->
-
 ## 📖 Usage
 
 ### User Workflow
@@ -311,57 +266,9 @@ Complete management interface for users, inventory, and sales analytics.
 
 ---
 
-## 🤝 Contributors
-
-This is a **Group Project** developed by students of Web Application Development (Semester 4, UniKL MIIT):
-
-- Project Team Members (Add your names here)
-
----
-
 ## 📝 Project Information
 
 - **Course:** Web Application Development
 - **Institution:** Universiti Kuala Lumpur (UniKL) - Malaysian Institute of Information Technology (MIIT)
 - **Semester:** 4
 - **Academic Year:** 2024
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- UniKL MIIT for the course structure and guidelines
-- ASP.NET Web Forms documentation
-- SQL Server community resources
-- Bootstrap for CSS framework inspiration
-
----
-
-## 📧 Contact & Support
-
-For questions or support regarding this project:
-
-- Open an issue in the repository
-- Contact the project maintainers
-
----
-
-## 🔗 Live Demo
-
-> This project is currently for educational purposes.
-
----
-
-<div align="center">
-
-**Made with ❤️ by the Web Application Development Team**
-
-⭐ If you found this project helpful, please consider giving it a star!
-
-</div>
